@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Test">
+    <listeners>
+        <listener class-name="org.uncommons.reportng.HTMLReporter" />
+    </listeners>
+    <test name="regression" verbose="2">
+        <classes>
+            <class name="cn.zhangxin.project.testcase.case_main" />
+            <class name="cn.zhangxin.project.testcase.case_homePage" />
+            <class name="cn.zhangxin.project.testcase.case_home_status" >
+            </class>
+        </classes>
+    </test>
+</suite>
